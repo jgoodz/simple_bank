@@ -1,5 +1,3 @@
-node_modules
+.gitignore
 build
 node_modules
-node_modules1
-build/contracts
