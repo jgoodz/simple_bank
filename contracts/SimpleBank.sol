@@ -48,6 +48,7 @@ contract SimpleBank {
         if (balances[msg.sender] >= withdrawAmount) {
 
             balances[msg.sender] -= withdrawAmount;
+            //        msg.sender.transfer(address(this).balance);
 
 
         }
